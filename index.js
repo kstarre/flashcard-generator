@@ -10,13 +10,15 @@ console.log(firstPresidentCloze.cloze);
 console.log(firstPresidentCloze.partial);
 console.log(firstPresidentCloze.fullText);
 
-let awesomeGuy = new BasicCard("Who wrote the musical Hamilton?", "Lin-Manuel Miranda");
-console.log(awesomeGuy.front);
-console.log(awesomeGuy.back);
 
-let awesomeGuyCloze = new ClozeCard("Lin-Manuel Miranda wrote the musical Hamilton.", "Lin-Manuel Miranda");
+// Tests to check the new card functionality and the error message...
+/*let awesomeGuy = new BasicCard("Who wrote the musical Hamilton?", "Lin-Manuel Miranda");
+console.log(awesomeGuy.front);
+console.log(awesomeGuy.back);*/
+
+/*let awesomeGuyCloze = new ClozeCard("Lin-Manuel Miranda wrote the musical Hamilton.", "Lin-Manuel Miranda");
 console.log(awesomeGuyCloze.cloze);
 console.log(awesomeGuyCloze.partial);
-console.log(awesomeGuyCloze.fullText);
+console.log(awesomeGuyCloze.fullText);*/
 
-let brokenCloze = new ClozeCard("This doesn't work.", "Oops!");
+/*let brokenCloze = new ClozeCard("This doesn't work.", "Oops!");*/
